@@ -23,6 +23,26 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
 .section-dark {
   background-color: #e2e2e2;
 }
