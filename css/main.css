@@ -18,3 +18,29 @@ html {
 
   font-family: sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
+.section-dark {
+  background-color: #e2e2e2;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+}
