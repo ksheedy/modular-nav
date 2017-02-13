@@ -11,12 +11,12 @@ html {
   text-size-adjust: 100%;
 
   box-sizing: border-box;
+
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-
-  font-family: sans-serif;
 }
 
 body {
@@ -56,6 +56,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 38em) {
+
   .logo {
     text-align: left;
   }
